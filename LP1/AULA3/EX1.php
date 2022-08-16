@@ -20,6 +20,7 @@
         print_r($cores);
         echo "<br>";
         echo "Eu tenho um carro ".$carros[2]." na cor ".$cores[2];
+        echo "<hr>";
 
         // Array associativo
         // array_name = array("chave1" => valor, "chave2" => valor, ...);
