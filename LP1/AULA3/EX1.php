@@ -21,18 +21,28 @@
         echo "<br>";
         echo "Eu tenho um carro ".$carros[2]." na cor ".$cores[2];
         echo "<hr>";
-
         // Array associativo
         // array_name = array("chave1" => valor, "chave2" => valor, ...);
 
         $dadospessoais = array("nome" => "Mario", "idade" => 30, "altura" => 1.86, "peso" => "98.0 kg");
         echo "<br><br>";
         print_r($dadospessoais);
-        echo "<br>DADOS PESSOAIS<br>";
+        echo "<br><h3>DADOS PESSOAIS</h3><br>";
         echo "Nome: ".$dadospessoais["nome"]."<br>";
         echo "Idade: ".$dadospessoais["idade"]."<br>";
         echo "Altura: ".$dadospessoais["altura"]."<br>";
         echo "Peso: ".$dadospessoais["peso"]."<br>";
+
+        // Array multidimensional
+        $alunos = array(
+                array("Karla", "A", "12345-X",8.9),
+                array("Murilo", "C", "1222-9", 8.0),
+                array("Ana", "B", "12346-1", 10.0)
+        );
+        echo "<pre>";
+        echo "<br>";
+        print_r($alunos);
+        echo "</pre>";
     ?>
 </body>
 </html>
