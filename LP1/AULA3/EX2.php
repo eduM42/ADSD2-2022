@@ -28,5 +28,7 @@
     rsort($carros);
     print_r($carros);
 
+
+    $carro = array("modelo" => "Onix", "cor" => "vermelho", "ano" => 2021, "valor" => "R$80000");
     echo "</pre>";
 ?>
