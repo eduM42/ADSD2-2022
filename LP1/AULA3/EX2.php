@@ -24,6 +24,9 @@
     sort($carros);
     print_r($carros);
 
+    echo "<br>Ordem decrescente<br>";
+    rsort($carros);
+    print_r($carros);
 
     echo "</pre>";
 ?>
