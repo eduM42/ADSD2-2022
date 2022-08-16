@@ -9,6 +9,9 @@
     <?php
         $carros = array("Onix", "Jeep", "Corolla", "Civic", "Vectra");
         $cores = array();
+        $cores[0] = "amarelo";
+        $cores[1] = "roxo";
+        $cores[3] = "Azul";
         print_r($carros);
     ?>
 </body>
