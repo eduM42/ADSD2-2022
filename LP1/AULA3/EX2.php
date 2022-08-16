@@ -28,9 +28,15 @@
     rsort($carros);
     print_r($carros);
 
-    echo "<br>";
+
+    //Ordem ascendente
+    echo "<h3>Ordem ascendente dos elementos</h3>";
     $carro = array("modelo" => "Onix", "cor" => "vermelho", "ano" => 2021, "valor" => "R$80000");
     asort($carro);
+    print_r($carro);
+
+    echo "<h3>Ordem ascendente das chaves</h3>"
+    ksort($carro);
     print_r($carro);
 
     echo "</pre>";
