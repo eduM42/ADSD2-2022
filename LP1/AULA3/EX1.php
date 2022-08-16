@@ -18,6 +18,13 @@
         print_r($cores);
         echo "<br>";
         echo "Eu tenho um carro ".$carros[2]." na cor ".$cores[2];
+
+        // Array associativo
+        // array_name = array("chave1" => valor, "chave2" => valor, ...);
+
+        $dadospessoais = array("nome" => "Mario", "idade" => 30, "altura" => 1.86, "peso" => "98.0 kg");
+        echo "<br><br>";
+        print_r($dadospessoais);
     ?>
 </body>
 </html>
