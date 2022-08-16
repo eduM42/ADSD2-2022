@@ -16,4 +16,10 @@
     echo "<br>";
     array_pop($carros);
     print_r($carros);
+
+    //====================================
+    // Ordenação
+    echo "<br>Ordem crescente<br>";
+    sort($carros);
+    print_r($carros);
 ?>
