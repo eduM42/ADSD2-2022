@@ -12,8 +12,12 @@
         $cores[0] = "amarelo";
         $cores[1] = "roxo";
         $cores[3] = "Azul";
+        $cores[2] = "Laranja";
         print_r($carros);
         echo "<br>";
+        print_r($cores);
+        echo "<br>";
+        echo "Eu tenho um carro ".$carros[2]." na cor ".$cores[2];
     ?>
 </body>
 </html>
