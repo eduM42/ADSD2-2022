@@ -5,4 +5,6 @@
     print_r($carros);
     echo "<br>";
     array_push($carros, "Cadillac");
+    $carros[3] = "HB20";
+    print_r($carros);
 ?>
