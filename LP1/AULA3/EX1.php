@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-        
+        $carros = array("Onix", "Jeep", "Corolla", "Civic", "Vectra");
+        $cores = array();
+        print_r($carros);
     ?>
 </body>
 </html>
