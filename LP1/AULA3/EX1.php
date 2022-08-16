@@ -13,6 +13,7 @@
         $cores[1] = "roxo";
         $cores[3] = "Azul";
         print_r($carros);
+        echo "<br>";
     ?>
 </body>
 </html>
