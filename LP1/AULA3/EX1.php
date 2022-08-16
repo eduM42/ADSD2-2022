@@ -6,6 +6,8 @@
     <title>EX1 - AULA 3</title>
 </head>
 <body>
-    
+    <?php
+        
+    ?>
 </body>
 </html>
