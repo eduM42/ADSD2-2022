@@ -35,7 +35,7 @@
     asort($carro);
     print_r($carro);
 
-    echo "<h3>Ordem ascendente das chaves</h3>"
+    echo "<h3>Ordem ascendente das chaves</h3>";
     ksort($carro);
     print_r($carro);
 
