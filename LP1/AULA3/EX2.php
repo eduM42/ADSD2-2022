@@ -3,5 +3,6 @@
     $carros = array("Onix", "Jeep", "Corolla", "Civic", "Vectra");
     array_unshift($carros, "Fusca");
     print_r($carros);
-    array_push($carros, "");
+    echo "<br>";
+    array_push($carros, "Cadillac");
 ?>
