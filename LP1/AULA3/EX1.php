@@ -7,7 +7,7 @@
     <style>
     </style>
 </head>
-<body style="backgroud-color: black; color: white">
+<body>
     <?php
         $carros = array("Onix", "Jeep", "Corolla", "Civic", "Vectra");
         $cores = array();
@@ -27,6 +27,11 @@
         $dadospessoais = array("nome" => "Mario", "idade" => 30, "altura" => 1.86, "peso" => "98.0 kg");
         echo "<br><br>";
         print_r($dadospessoais);
+        echo "<br>DADOS PESSOAIS<br>";
+        echo "Nome: ".$dadospessoais["nome"]."<br>";
+        echo "Idade: ".$dadospessoais["idade"]."<br>";
+        echo "Altura: ".$dadospessoais["altura"]."<br>";
+        echo "Peso: ".$dadospessoais["peso"]."<br>";
     ?>
 </body>
 </html>
