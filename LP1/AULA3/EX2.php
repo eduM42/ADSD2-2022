@@ -20,11 +20,11 @@
 
     //====================================
     // Ordenação
-    echo "<br>Ordem crescente<br>";
+    echo "<h3>Ordem crescente</h3>";
     sort($carros);
     print_r($carros);
 
-    echo "<br>Ordem decrescente<br>";
+    echo "<h3>Ordem decrescente</h3>";
     rsort($carros);
     print_r($carros);
 
