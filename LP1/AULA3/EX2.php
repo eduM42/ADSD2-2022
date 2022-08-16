@@ -30,5 +30,8 @@
 
 
     $carro = array("modelo" => "Onix", "cor" => "vermelho", "ano" => 2021, "valor" => "R$80000");
+    aosrt($carro);
+    print_r($carro);
+    
     echo "</pre>";
 ?>
