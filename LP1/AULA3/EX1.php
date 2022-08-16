@@ -43,6 +43,10 @@
         echo "<br>";
         print_r($alunos);
         echo "</pre>";
+        echo "Nome: ".$alunos[2][0]."<br>";
+        echo "Turma: ".$alunos[2][1]."<br>";
+        echo "Prontuário: ".$alunos[2][2]."<br>";
+        echo "Nota: ".$alunos[2][3]."<br>";
     ?>
 </body>
 </html>
