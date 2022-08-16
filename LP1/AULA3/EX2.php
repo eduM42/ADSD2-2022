@@ -1,5 +1,6 @@
 <?php
     // inserir elementos no array
+    echo "<pre>";
     $carros = array("Onix", "Jeep", "Corolla", "Civic", "Vectra");
     array_unshift($carros, "Fusca");
     print_r($carros);
@@ -22,4 +23,7 @@
     echo "<br>Ordem crescente<br>";
     sort($carros);
     print_r($carros);
+
+
+    echo "</pre>";
 ?>
