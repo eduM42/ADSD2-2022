@@ -30,7 +30,7 @@
 
     echo "<br>";
     $carro = array("modelo" => "Onix", "cor" => "vermelho", "ano" => 2021, "valor" => "R$80000");
-    aosrt($carro);
+    asort($carro);
     print_r($carro);
 
     echo "</pre>";
