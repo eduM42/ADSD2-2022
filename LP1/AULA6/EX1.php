@@ -16,7 +16,7 @@
         </label>
         <br><br>
         <input type="submit" value="Exibir" name="btnexibir"/>
-        <input type="submit" value="Limpar" name="btnlimpar"/>
+        <input type="reset" value="Limpar" name="btnlimpar"/>
         <br><br>
     </form>
 
