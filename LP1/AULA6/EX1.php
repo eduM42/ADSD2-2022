@@ -6,7 +6,7 @@
     <title>Formulário 1</title>
 </head>
 <body>
-    <form action="EX1_form.php" method="POST">
+    <form action="EX1_form.php" method="GET">
         <label>
             Nome: <input type="text" name="txtnome" size="50" maxlength="30" placeholder="Nome completo"/>
         </label>
