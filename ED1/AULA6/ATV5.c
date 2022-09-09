@@ -2,7 +2,7 @@
 #include <stdlib.h> // Declara a biblioteca stdlib
 
 void main(void){
-    int linhas = 3, colunas = 2, i, j; //Define o número de linhas (3), colunas (2), e as variáveis i e j para as funções for
+    int soma = 0, linhas = 3, colunas = 2, i, j; //Define o número de linhas (3), colunas (2), e as variáveis i e j para as funções for
     int ** matriz;  // Declara um ponteiro do ponteiro para a memória
     matriz = (int **) malloc(linhas * sizeof(int*)); // Aloca para a variável "matriz" o espaço de memória para 3 valores do tipo int para as linhas
 
@@ -13,9 +13,10 @@ void main(void){
     for(i = 0; i < linhas; i++){ // Passa por cada linha, esperando popular todas as colunas da linha com a função "for" seguinte
         for(j = 0; j < colunas; j++){ // Passa por cada coluna
             scanf("%d", &matriz[i][j]); //Preenche com valores inseridos pelo usuário a matriz declarada anteriormente
+            soma += matriz[i][j];
         }
     }
-    printf("\n\n\n"); // Dá três espaços
+    printf("%d\n\n\n",soma); // Dá três espaços
 
     for(i = 0; i < linhas; i++){ // Passa por cada linha, esperando popular todas as colunas da linha com a função "for" seguinte
         for(j = 0; j < colunas; j++){ // Passa por cada coluna
