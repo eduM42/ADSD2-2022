@@ -23,6 +23,7 @@
                 $valor1 = $_GET['txtnumero1'];
                 $valor2 = $_GET['txtnumero2'];
                 $resultdo = soma($valor1, $valor2);
+                echo "Resultado = $resultado";
             }
 
             //Definição das funções
