@@ -33,7 +33,7 @@
 
     $arquivo2 = fopen("texto2.txt", "w+");
     fwrite($arquivo2, $texto);
-    echo file_get_contents($arquivo);
+    echo file_get_contents("texto2.txt");
     
 
 ?>
