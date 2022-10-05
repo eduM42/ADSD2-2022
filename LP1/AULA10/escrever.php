@@ -8,6 +8,6 @@
     fclose($arquivo);
     echo "<hr><br>MENSAGEM GRAVADA COM SUCESSO<br>";
     echo "<a href='a10_form.php'>Nova mensagem</a><br>";
-    echo "<a href='exibe_msg.txt'>Lista mensagens></a><br>";
+    echo "<a href='exibe_msg.php'>Lista mensagens></a><br>";
 
 ?>
