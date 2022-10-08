@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#" method="get">
+    <form action="atv1_script_a9.php" method="get">
         <label >Número: <br>
             <input type="number" placeholder="Número qualquer" name="txtnumero">
         </label>
@@ -15,19 +15,6 @@
         <p><input type="reset" name="Limpar"></p>
     </form>
 
-<?php
-    $numero = $_GET['txtnumero'];
-
-    echo "O valor é: ".pn($numero)."<br>";
-
-    function pn($valor){
-        if($valor > 0){
-            return 'P';
-        }
-        else{
-            return 'N';
-        }
-    }
 
 ?>
 </body>
