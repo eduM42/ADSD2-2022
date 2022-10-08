@@ -14,9 +14,6 @@
         <p><input type="submit" name="Enviar"></p>
         <p><input type="reset" name="Limpar"></p>
     </form>
-
-
-?>
 </body>
 </html>
 
