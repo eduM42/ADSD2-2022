@@ -1,5 +1,5 @@
 <?php
-require 'func_conta.php';
+require 'atv2_func_conta.php';
     $numeros = array();
 
     for($i = 0; $i < 100; $i++){
