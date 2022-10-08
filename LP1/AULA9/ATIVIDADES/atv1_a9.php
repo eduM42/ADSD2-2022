@@ -7,13 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="atv1_script_a9.php" method="get">
+    <form action="#" method="get">
         <label >Número: <br>
             <input type="number" placeholder="Número qualquer" name="txtnumero">
         </label>
         <p><input type="submit" name="Enviar"></p>
         <p><input type="reset" name="Limpar"></p>
     </form>
+    <?php
+        require 'atv1_func_a9.php';
+        $numero = $_GET['txtnumero'];
+        echo "O valor é: ".pn($numero)."<br>";
+    ?>
 </body>
 </html>
 
