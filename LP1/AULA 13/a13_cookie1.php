@@ -38,7 +38,7 @@
          break;
    }
   echo "$tenis e <br> R$ $preco";
-  echo "<br><br><a href='a13_produto.php?prod=$produto'>FINALIZAR COMPRA</a>";
+  echo "<br><br><a href='a13_produto.php'>FINALIZAR COMPRA</a>";
   setcookie("usuario", $_SESSION['usuario'], 3600);
   setcookie("descricao", $tenis, 3600);
   setcookie("preco", $preco, 3600);
