@@ -1,14 +1,15 @@
 <?php
+   session_start();
     $produto = $_GET['prod'];
   //setcookie()
   if(isset($produto)){
     echo "<h3>Dados do produto selecionado:</h3>";
-    echo "Código $produto<br>";
+    echo "Código: $produto<br>";
     echo "<img src='img/tenis$produto.jpg'><br>";
    switch ($produto) {
       case 1:
      
-      $tenis = 'Tênis para corrida<br>';
+      $tenis = 'Tênis para corrida';
       $preco = 400;
          break;
       case 2:
@@ -37,10 +38,19 @@
          break;
    }
   echo "$tenis e <br> R$ $preco";
+  echo "<br><br><a href='a13_produto.php?prod=$produto'>FINALIZAR COMPRA</a>";
+  setcookie("usuario", $_SESSION['usuario'], 3600);
+  setcookie("descricao", $tenis, 3600);
+  setcookie("preco", $preco, 3600);
+
   }
   else{
    $tenis = "nenhum tênis selecionado<br>";
    $preco = 0;
   }
-  setcookie("produto",$produto,time()+8400);
+  setcookie("produto", $produto, time()+3600);
+  setcookie("descricao", $tenis, time()+3600);
+  setcookie("preco", $preco, time()+3600);
+  setcookie("usuario", $_SESSION['usuario'], time()+3600);
+
 ?>
