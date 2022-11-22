@@ -108,8 +108,8 @@ cont_occr <- function(vet1, vet2){
 
 t <- read_excel("/home/pr/plor.xlsx")
 
-denttable1 <- qui_quad(t$famsup, t$nursery, "yes", "no")
-denttable2 <- qui_quad(t$activities, t$higher, "yes", "no")
+denttable1 <- qui_quad(t$famsup, t$nursery, "yes", "no", TRUE)
+denttable2 <- qui_quad(t$activities, t$higher, "yes", "no", TRUE)
 
 corr_fs_nr <- cont_occr(t$famsup, t$nursery)
 corr_ac_hi <- cont_occr(t$activities, t$higher)
