@@ -1,5 +1,5 @@
 <?php
-    include_once 'cabelcalho.php';
+    include_once 'cabecalho.php';
     include_once 'conexao.php';
     
     $codigo = $_POST['txtid'];
@@ -8,7 +8,7 @@
     $fone  = $_POST['txtfone'];
     $data = $_POST['txtdatanasc'];
 
-    $altera = $conecta -> prepare("UPDATE tab_clientes SET cli_nome = :id, cli_nome  = :nome, cli_sobrenome = :sobrenome, cli_fone = :fone, cli_data_nasc = :dt_nasc WHERE cli_id = :codigo");
+    $altera = $conecta -> prepare("UPDATE tab_clientes SET cli_nome  = :nome, cli_sobrenome = :sobrenome, cli_fone = :fone, cli_data_nasc = :dt_nasc WHERE cli_id = :codigo");
 
     $altera -> bindValue(':nome', $nome);
     $altera -> bindValue(':sobrenome', $sobrenome);
@@ -18,7 +18,7 @@
     
     $altera -> execute();
 
-    header('Location: lista.php');
+    header('Location: listagem_clientes.php');
 
     include_once 'rodape.php';
-?>
+    ?>
