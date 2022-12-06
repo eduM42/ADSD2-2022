@@ -15,7 +15,6 @@ qui_quad <- function(vet1, vet2, elemento1, elemento2, dep = FALSE){
   
   vet1 = str_count(vet1, elemento1)
   vet2 = str_count(vet2, elemento1)
-  asdasdasdasdasda
   
   for (v in vet1) {
     if(v == 1){
